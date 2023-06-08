@@ -25,7 +25,7 @@ userRouter.post("/signup",async(req,res)=>{
                 from: email, // sender address
                 to: "valerie75@ethereal.email", // list of receivers
                 subject: "verification link", // Subject line
-                text: `http://localhost:4500/verify/${email}`, // plain text body
+                text: `https://june8backend.onrender.com/verify/${email}`, // plain text body
               })
 
 
